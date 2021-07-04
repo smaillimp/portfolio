@@ -1,34 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="/main.css">
-    <title>Projects - Web Portfolio of Smaillim</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav">
-            <li><a class="nav-link active" href="/">Home</a></li>
-            <li><a class="nav-link" href="/blog/">Blog</a></li>
-            <li><a class="nav-link" href="/projects/">Projects</a></li>
-            <li><a class="nav-link" href="/contact/">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <h1 class="title">Projects</h1>
-    <p>Here you will soon find my web projects.</p>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="/main.css">
+  <title>Projects - Web Portfolio of Smaillim</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav">
+          <li><a class="nav-link" href="/">Home</a></li>
+          <li><a class="nav-link" href="/blog/">Blog</a></li>
+          <li><a class="nav-link active" href="/projects/">Projects</a></li>
+          <li><a class="nav-link" href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main role="main">
+    <div class="container">
+      <h1 class="title text-center">Projects</h1>
+      <h2 class="text-center">Project Entries</h2>
+      <p>Here, I can show you my current and upcoming projects.</p>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card sm-6 shadow-sm">
+            <div class="card-header">
+              Github Projects | Yatzee
+            </div>
+            <div class="card-body">
+              <p class="card-text">Python based console game Yatzee.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="https://github.com/smaillimp/yatzee">
+                  <button type=" button" class="btn btn-sm btn-outline-secondary">View on Github</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card sm-6 shadow-sm">
+            <div class="card-header">
+              Github Projects | Online Portfolio
+            </div>
+            <div class="card-body">
+              <p class="card-text">Homepage created as part of an application process.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="https://github.com/smaillimp/portfolio">
+                  <button type=" button" class="btn btn-sm btn-outline-secondary">View on Github</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="text-muted">
+    <div class="container footer">
+      <p class="float-end">
+        <a href="#" class="nav-link">Back to top</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
 </html>

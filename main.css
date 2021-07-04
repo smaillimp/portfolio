@@ -3,6 +3,7 @@ h2 {
     background-color: #254e66;
     color: #ffffff; 
     padding: 1em;
+    margin-bottom: 1em;
 }
 
 .title {
@@ -12,6 +13,19 @@ h2 {
 }
 
 
+.inline-figure {
+    max-height: 400px;
+    max-width: 400px;
+    min-width: 200px;
     
+}
 
+.footer {
+    margin-top: 5em;
+}
+
+.card-header{
+    background-color: #254e66;
+    color: #ffffff; 
+}
   
