@@ -24,8 +24,14 @@ h2 {
     margin-top: 5em;
 }
 
-.card-header{
+.card-header {
     background-color: #254e66;
     color: #ffffff; 
 }
-  
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    overflow: hidden;
+}
